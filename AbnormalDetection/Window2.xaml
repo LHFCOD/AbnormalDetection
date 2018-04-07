@@ -1,0 +1,21 @@
+﻿<Window x:Class="AbnormalDetection.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbnormalDetection"
+        mc:Ignorable="d"
+        Title="Window2" Height="300" Width="542.466" WindowState="Maximized">
+    <Grid>
+        <Grid Margin="64,60,129,180" >
+            <DatePicker x:Name="StartDate" SelectedDateFormat="Long" IsTodayHighlighted="True" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,172,0" Height="24" Width="150" SelectedDate="2015-01-01"  />
+            <DatePicker x:Name="EndDate" SelectedDateFormat="Long" Margin="172,0,0,0" IsTodayHighlighted="True" HorizontalAlignment="Center" VerticalAlignment="Center" Height="24" Width="150" SelectedDate="2015-01-02"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="-7.75,-5.133" Margin="155,4"><Run Text="至"/></TextBlock>
+        </Grid>
+        <Grid  Width="203" Height="28" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="83,110,248,131">
+            <TextBox x:Name="扫描间隔" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" Height="28" Margin="83,0,0,0" Text="5"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,152,0" Height="28" Width="51"><Run Text="扫描间隔"/></TextBlock>
+        </Grid>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="25" Content="计算" Click="OnCompute" Margin="325,113,159,131"></Button>
+    </Grid>
+</Window>

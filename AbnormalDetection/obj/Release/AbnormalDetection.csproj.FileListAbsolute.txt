@@ -1,0 +1,1 @@
+C:\Users\NCEPU\Documents\Visual Studio 2015\Projects\AbnormalDetection\AbnormalDetection\obj\Release\AbnormalDetection.csproj.ResolveComReference.cache

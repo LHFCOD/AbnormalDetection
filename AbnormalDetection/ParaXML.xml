@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <!--<Child name="&#35;5机组发电机功率" type="1" time="5" value="0.015"></Child>
+  <Child name="5号机给水流量" type="1" time="5" value="0.015"></Child>
+  <Child name="三级过热器出口蒸汽压力" type="0" time="5" value="0.6"></Child>
+  <Child name="三级过热器出口蒸汽温度" type="0" time="5" value="5"></Child>
+  <Child name="二级再热器出口蒸汽温度" type="0" time="5" value="5"></Child>-->
+  <Child name="&#35;5机组发电机功率" type="1" time="10" value="0.02"></Child>
+  <!--<Child name="5号机给水流量" type="1" time="5" value="0.015"></Child>-->
+  <Child name="三级过热器出口蒸汽压力" type="0" time="10" value="0.6"></Child>
+  <Child name="三级过热器出口蒸汽温度" type="0" time="5" value="5"></Child>
+  <Child name="二级再热器出口蒸汽温度" type="0" time="5" value="5"></Child>
+<Child name="凝汽器循环水进水温度A" type="0" time="5" value="0.5"></Child>
+</Root>

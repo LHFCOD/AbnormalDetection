@@ -1,0 +1,15 @@
+﻿  Moc'ing boilerefficiencyWindow.h...
+  Uic'ing boilerefficiency.ui...
+  Rcc'ing boilerefficiency.qrc...
+RCC : warning : No resources in 'C:\Users\NCEPU\Documents\Visual Studio 2015\Projects\AbnormalDetection\BoilerEfficiency\boilerefficiency.qrc'.
+  
+  BoilerEffi.cpp
+  boilerefficiencyWindow.cpp
+  IExceptionBase.cpp
+  moc_boilerefficiencyWindow.cpp
+  main.cpp
+  ParseText.cpp
+  svm.cpp
+  Generating Code...
+  qrc_boilerefficiency.cpp
+  BoilerEfficiency.vcxproj -> C:\Users\NCEPU\Documents\Visual Studio 2015\Projects\AbnormalDetection\x64\Release\BoilerEfficiency.exe
